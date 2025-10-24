@@ -83,8 +83,6 @@ Profile Window
 ---
 
 
-
-
 ## 📄 License
 
 The project is available for free use and modification for educational purposes.
