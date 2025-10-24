@@ -1,10 +1,35 @@
-Food Delivery App Android
-
---- 
+## Food Delivery App Android
 
 
-The food ordering application was made with java xml files for android applications only
+Food Delivery App is an Android-based mobile application that allows users to browse a variety of food items, add them to a shopping cart, and complete an order through an intuitive checkout process. The app focuses on providing a clean user experience with persistent cart storage, order confirmation, and a dedicated support section. It serves as a demonstration of modern mobile UI design, local data handling, and basic ordering workflows.
 
+
+---
+
+## 🎯 Key Features
+
+- **Browse Food Items**
+  Users can explore a list of available food items with images, descriptions, categories, and prices.
+
+- **Add to Cart**
+  Items can be added to the shopping cart, updated, or removed before completing the order.
+
+- **Checkout Workflow**
+  The app simulates an ordering lifecycle, allowing the user to confirm their selection and view order summaries.
+
+- **User Profile**
+  Supports basic user profile interactions and settings (e.g., name, contact information).
+
+- **Customer Support Section**
+  Provides users with a dedicated support page where they can view assistance options, access contact information, and get help regarding orders, delivery, or app usage.
+
+- **Order Confirmation**
+  After finalizing a purchase, users are presented with an order confirmation screen summarizing delivery information.
+
+---
+
+
+## 📸 Preview
 - Starting window
 
 <img width="200" height="859" alt="image" src="https://github.com/user-attachments/assets/c37fbbcb-7829-4272-8127-22daafa5362b" />
@@ -44,4 +69,29 @@ Profile Window
 
 ---
 
+## 🧩 Technologies Used
+- **Android Studio**
+- **Java 21**
+- **XML for UI layout**
+- **TinyDB (Local Storage Helper)**  
+  Custom utility class that extends the functionality of Android SharedPreferences. Provides support for:
+  - Persistent cart data
+  - ArrayLists and custom objects (via Gson)
+  - Lightweight caching
+  - Bitmap image storage on external memory
+
+---
+
+
+
+
+
+---
+
+
+## 📄 License
+
+The project is available for free use and modification for educational purposes.
+
+Thank you for your interest in this project! 🚀
 
